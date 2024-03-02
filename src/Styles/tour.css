@@ -1,0 +1,79 @@
+/*.pagination span {
+    width: 2rem;
+    height: 2rem;
+    padding: 8px;
+    margin: 0 4px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .active__page {
+    background: var(--secondary-color);
+    color: #fff !important;
+  }*/
+  .pageNumbers {
+    margin-top: 20px; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .pageNumbers span {
+    display: inline-block;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #ccc; 
+    color: #333; 
+    text-align: center;
+    line-height: 30px; 
+    cursor: pointer;
+    margin-right: 10px; 
+  }
+  
+  .pageNumbers span.active__page {
+    background-color: #d4671f; /* Change background color of active page */
+    color: #fff; /* Change text color of active page */
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .pagination span {
+    width: 2rem;
+    height: 2rem;
+    padding: 8px;
+    margin: 0 4px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .pagination span:hover {
+    background: var(--secondary-color);
+    color: #fff;
+  }
+  
+  .active__page {
+    background: var(--secondary-color);
+    color: #fff !important;
+  }
+    

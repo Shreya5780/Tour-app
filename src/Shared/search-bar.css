@@ -1,0 +1,66 @@
+
+.search__bar {
+    border-radius: 25px; 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); 
+    padding: 0.5rem 1rem;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.form__group {
+    display: flex;
+    align-items: center;
+    gap: 2;
+    padding: 1rem;
+}
+
+.form__group span {
+    font-size: 3rem;
+    color: #ee6e6e;
+    padding: 0.5rem;
+}
+
+.form__group input {
+    border: 1px solid #ccc; 
+    border-radius: 1px; 
+    padding: 0.5rem; 
+    font-size: 1rem;
+    color: var(--heading-color);
+}
+
+.form__group input:focus {
+    outline: none;
+    border-color: #007bff; 
+}
+
+.form__group h6 {
+    margin-bottom: 1;
+    font-size: medium;
+}
+
+.form__group-fast {
+    border-right: 1px solid white;
+}
+
+.search__icon {
+    font-size: 1.6rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:50px;
+}
+
+
+.services__subtitle{
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: #ee6e6e; 
+      font-family: var(--subtitle-font-name);  
+}
+
+.services__title{
+    font-size: 2.5rem;
+    font-weight: 500;
+}

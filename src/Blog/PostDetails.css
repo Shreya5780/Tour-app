@@ -1,0 +1,80 @@
+/* postDetails.css */
+
+/* Style for the title */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the username */
+  .username {
+    color: #666;
+  }
+  
+  /* Style for the date */
+  .date {
+    color: #999;
+  }
+  
+  /* Style for the image */
+  .post-image {
+    width: 100%;
+    height: 500px;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  /* Style for the description */
+  .description {
+    margin-top: 1rem;
+    color: #444;
+  }
+  
+  /* Style for the categories */
+  .categories {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Style for the comment input */
+  .comment-input {
+    width: 80%;
+    outline: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Style for the add comment button */
+  .add-comment-button {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Style for the comments section */
+  .comments-section {
+    margin-top: 1rem;
+  }
+  
+  /* Style for individual comments */
+  .comment {
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the comment author */
+  .comment-author {
+    font-weight: bold;
+  }
+  
+  /* Style for the comment text */
+  .comment-text {
+    color: #444;
+  }
+  

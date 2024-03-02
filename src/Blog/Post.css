@@ -1,0 +1,21 @@
+/* Posts.css */
+
+.posts-container {
+    padding: 20px;
+  }
+  
+  .posts-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .posts-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .post-card {
+    width: calc(25% - 15px); /* Adjust as needed */
+    margin-bottom: 30px; /* Adjust as needed */
+  }
+  

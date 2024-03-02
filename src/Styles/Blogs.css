@@ -1,0 +1,44 @@
+/* Blogs.css */
+
+/* Container styles */
+.blogs-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Create Blog form styles */
+  .create-blog-form {
+    margin-bottom: 20px;
+  }
+  
+  .create-blog-form input[type="text"],
+  .create-blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .create-blog-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Individual Blog styles */
+  .blog {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog h3 {
+    margin-top: 0;
+  }
+  
+  .blog p {
+    margin-bottom: 10px;
+  }
+  
